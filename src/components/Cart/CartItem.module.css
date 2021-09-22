@@ -1,0 +1,95 @@
+.container{
+      background-color: white;
+      padding:2rem;
+      margin-top: 1rem;
+        
+}
+.details{
+      display: grid;
+      grid-template-columns: 10% 50% 40%;
+      position: relative;
+}
+.details button{
+      display: flex;
+   align-items: center;
+  border: none;
+  background-color: transparent;
+  margin-right: 10rem;
+}
+.details .icon{
+  width: 20px;
+  color: red;
+  height: 20px;
+  margin-right: 0.5rem;
+  position: absolute;
+  top:0;
+  right:0;
+}
+.details img{
+      width:50px;
+}
+.description{
+      text-align: left;
+}
+.description p{
+      font-weight: 300;
+      margin-top: 1rem;
+      font-size: 18px;
+}
+
+.add--more{
+      text-align: right;
+      margin-top: 2rem;
+}
+.add--more p{
+      font-weight: lighter;
+}
+.input--container .price{
+      font-weight: 400;
+      margin-top: 1rem;
+      
+}
+.input{
+      border:1px solid #CCCCCC;
+     display: inline-flex;
+      justify-content: space-around;
+       align-items: center;
+     padding: .5rem 0;
+     width: 15%;
+     font-size: 18px;
+     margin-top: .5rem;
+}
+.input p{
+      cursor:pointer;
+}
+
+@media (max-width:540px){
+      .details{
+      display: grid;
+      grid-template-columns: 1fr;
+      position: relative;
+}
+.description{
+      text-align: left;
+      margin-top: 3rem;
+}
+.description p{
+      font-size: 16px;
+}
+.add--more{
+      text-align: left;
+      margin-top: 2rem;
+
+}
+.input--container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      
+}
+.input{
+     width: 50%;
+     font-size: 18px;
+     margin-top: .5rem;
+}
+}

@@ -1,0 +1,22 @@
+
+.display{
+      background-color: #161414;
+      padding:2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap:2.5rem;
+}
+
+@media (max-width:540px){
+      .display{
+            grid-template-columns: 1fr;
+            padding:1rem;
+            gap:5rem;
+      }
+}
+
+@media (width:768px){
+      .display{
+            grid-template-columns: 1fr 1fr;
+      }
+}

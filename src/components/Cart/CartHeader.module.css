@@ -1,0 +1,46 @@
+.heading h3 {
+  font-weight: 300;
+  margin-right: 2rem;
+  font-size: 22px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  margin-right: 10rem;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.icon {
+  width: 20px;
+  color: #51a8f1;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+@media (max-width:540px){
+  .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading h3 {
+  display: none;
+}
+.button {
+  margin-right: 5rem;
+}
+
+.icon {
+  width: 15px;
+  color: #51a8f1;
+  height: 15px;
+}
+}

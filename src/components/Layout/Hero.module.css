@@ -1,0 +1,80 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #010204;
+  padding: 3rem 4rem 0;
+  color: white;
+  gap: 3rem;
+  margin: 0;
+  text-align: left;
+}
+main h1 {
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+main p {
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 20px;
+}
+main button {
+  margin-top: 3rem;
+  background-color: cornflowerblue;
+  border: none;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.5s ease-in;
+  font-family: "Josefin Sans", sans-serif;
+}
+main button:hover {
+  transform: translateY(-10%);
+}
+main img {
+  width: 400px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 540px) {
+  main {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem 2rem;
+    gap: 0rem;
+  }
+  main button {
+    padding: 1rem;
+    color: white;
+    font-size: 16px;
+    width: 80%;
+  }
+  main h1 {
+    font-size: 20px;
+  }
+  main p {
+    font-size: 16px;
+  }
+  main img {
+    width: 250px;
+  }
+}
+
+@media (width: 768px) {
+  main {
+    margin-top: 6rem;
+    /* display:grid;
+      grid-template-columns: 1fr; */
+    padding: 4rem 2rem;
+    gap: 0rem;
+  }
+  main img {
+    width: 300px;
+  }
+}
